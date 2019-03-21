@@ -1,0 +1,13 @@
+server:
+ port: 6688
+  
+#http://localhost:6688/admin/refresh 刷新调用地址
+management:
+  context-path: /admin
+  security:
+    enabled: false
+  
+test: 333
+
+name: bob1
+age: 231
